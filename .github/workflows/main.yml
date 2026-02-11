@@ -10,5 +10,12 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-      - name: Install Dependencies
-        run: echo "$ACTIONS_CACHE_URL" 
+      - name: Print1
+        run: |
+          echo "$ACTIONS_CACHE_URL"
+          
+      - name: Print2
+        run: env 
+
+
+
